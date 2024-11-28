@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Manager</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    h1 { color: #333; }
+    form, ul { margin-top: 20px; }
+    input, button { padding: 10px; margin: 5px; }
+    li { margin: 5px 0; }
+  </style>
+</head>
+<body>
+  <h1>Manage Your Links</h1>
+  <div id="profile">
+    <h2>Links for <span id="username">demoUser</span></h2>
+    <ul id="links"></ul>
+  </div>
+  <form id="linkForm">
+    <input type="text" id="title" placeholder="Link Title" required>
+    <input type="url" id="url" placeholder="Link URL" required>
+    <button type="submit">Add Link</button>
+  </form>
+  <script src="app.js"></script>
+</body>
+</html>
